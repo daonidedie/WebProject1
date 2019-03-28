@@ -12,8 +12,8 @@ def getHtmlContent(url):
   #  urllib.request.ur("")
     req=urllib.request.Request('http://www.pretend_server.com')
     page=  urllib.request.urlopen(req)
-
-     #  print(e.reason)
+    
+    print(e.reason);
     return req.data
 
 # 从html中解析出所有jpg图片的url
