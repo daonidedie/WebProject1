@@ -1,7 +1,8 @@
 import urllib;
 import urllib.request;
 import re;
-import asq;
+#import asq;
+import timeit;
 
 
 print("fdsfsfs");
@@ -25,7 +26,7 @@ def GetJpeg(html):
     return jpgs
 def main():
     url="http://www.sohu.com"
-    getHtmlContent(url);
+    print( timeit( getHtmlContent(url)));
 
 if __name__ == '__main__':
     main()
